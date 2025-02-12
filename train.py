@@ -16,8 +16,9 @@ plt.rcParams['image.interpolation'] = 'nearest'
 plt.rcParams['image.cmap'] = 'gray'
 
 data_dir = 'datasets'
-if not os.listdir(data_dir):
+if not os.path.exists(data_dir) or not os.listdir(data_dir):
     print('Please download the data from http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz and put it under the datasets folder.')
+    exit()
 
 # Load the (preprocessed) CIFAR10 data.
 cifar10_dir = 'datasets/cifar-10-batches-py'
