@@ -1,0 +1,14 @@
+name: cnn_numpy
+channels:
+- defaults
+- conda-forge
+dependencies:
+- matplotlib
+- pip
+- pytest
+- python=3.6
+- pyyaml
+- opencv=3.4.2
+- colour
+- scipy
+- imageio
