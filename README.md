@@ -3,7 +3,7 @@ A simple Convolutional Neural Network (CNN) written from scratch using Numpy. Tr
 
 Architecture: [conv - bn - relu] x M - global_average_pooling - affine - softmax.
 
-Worked on this project to understand the working of each individual compoent in a CNN. The implementation all the layers used in the network can be found in utils/layers.py
+Worked on this project to understand the working of each individual component in a CNN. The implementation all the layers used in the network can be found in utils/layers.py
 
 Current configurations yield around 65% test set accuracy with 4 convolution layers (M=4).
 
